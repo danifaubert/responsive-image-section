@@ -30,7 +30,7 @@ body {
 
 .roboto {
   width: 50%;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .text {
@@ -39,6 +39,7 @@ body {
   width: 50%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -50,7 +51,7 @@ h2 {
   text-align: left;
 }
 
-.body {
+.section {
   text-align: left;
   max-width: 50em;
   width: 50%;
