@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+wrapper {
+    background-color: #e2e2e2;
+    width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.roboto {
+  width: 50%;
+  align-items: flex-end;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  line-height: 1.2;
+  display: inline;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+}
+
+.body {
+  text-align: left;
+  max-width: 50em;
+  width: 50%;
+}
+
+p {
+  margin-top: .5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.site {
+  text-align: center;
+  display: inline-block;
+  background-color: #555;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  color: #e2e2e2;
+  text-decoration: none;
+  margin-bottom: .2rem;
+}
