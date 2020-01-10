@@ -107,7 +107,6 @@ a {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -149,7 +148,7 @@ a {
 
   section {
     top: 20%;
-    left: 50%;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -159,12 +158,11 @@ a {
   .img-flex {
     display: inline-block;
     width: 100%;
-    width: 80%;
   }
 
   .body {
     margin-top: 0;
-    width: 50%;
+    width: 100%;
   }
 
 }
